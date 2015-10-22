@@ -30,8 +30,9 @@ function toggle() {
 	if(txt == +txt){
         displaybox.value = -txt;
 	}
-	else if(txt == -txt)
+	else if(txt == -txt) {
         displaybox.value = +txt;
+	}
 }
 
 function point() {  
