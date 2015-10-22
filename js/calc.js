@@ -1,6 +1,6 @@
  var txt = "";
 var dec= "."
-var deci = "0.";
+
 
 
 function showVal(num){
@@ -11,13 +11,11 @@ function showVal(num){
   	displaybox.value = error;
   }else
   document.getElementById("displaybox").value = txt;
- 
 }
 
 function clearNum(){
-     txt = " ";
+  txt = " ";
 	document.getElementById("displaybox").value = txt;
-
 }
 
 function calculate(){
@@ -41,6 +39,7 @@ function point(){
 		{
 			displaybox.value = "0";
 		}
+    
 		displaybox.value += dec;
 }
 
@@ -49,12 +48,11 @@ function squareroot(){
     var txt2 = parseInt(txt);
     var answer = Math.sqrt(txt2);
     displaybox.value = answer;
-
 }
 
-function inverse(){
+function square(){
 	txt = document.getElementById("displaybox").value;
-	var inverse = eval(1/txt);
-	displaybox.value = inverse;
-
+  var txt2 = parseInt(txt);
+  var answer = Math.pow(txt2, 2);
+	displaybox.value = answer;
 }

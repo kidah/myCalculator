@@ -42,6 +42,6 @@ body{
 	display: table;
 }
 
-.btn:hover{
+#buttons input:hover{
   border-color: green;
 }
