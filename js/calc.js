@@ -5,7 +5,7 @@ var dec= "."
 function showVal(num) {
         var txt = document.getElementById("displaybox").value;
         txt = txt + num;
-        if (displaybox.value.length > 30){
+        if (displaybox.value.length > 30) {
   	    var error = "Maximum length of characters reached!!!";
   	    displaybox.value = error;
         }
@@ -27,7 +27,7 @@ function calculate() {
 
 function toggle() {
 	txt = document.getElementById("displaybox").value;
-	if (txt == +txt){
+	if (txt == +txt) {
             displaybox.value = -txt;
 	}
 	else if (txt == -txt) {
