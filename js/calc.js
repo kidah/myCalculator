@@ -5,12 +5,12 @@ var dec= "."
 function showVal(num) {
         var txt = document.getElementById("displaybox").value;
         txt = txt + num;
-        if(displaybox.value.length > 30){
-  	var error = "Maximum length of characters reached!!!";
-  	displaybox.value = error;
+        if (displaybox.value.length > 30){
+  	    var error = "Maximum length of characters reached!!!";
+  	    displaybox.value = error;
         }
-        else{
-        document.getElementById("displaybox").value = txt;
+        else {
+            document.getElementById("displaybox").value = txt;
         }
 }
 
@@ -27,20 +27,20 @@ function calculate() {
 
 function toggle() {
 	txt = document.getElementById("displaybox").value;
-	if(txt == +txt){
-        displaybox.value = -txt;
+	if (txt == +txt){
+            displaybox.value = -txt;
 	}
-	else if(txt == -txt) {
-        displaybox.value = +txt;
+	else if (txt == -txt) {
+            displaybox.value = +txt;
 	}
 }
 
 function point() {  
-        if(displaybox.value.length == 0) {
-        displaybox.value = "0";
+        if (displaybox.value.length == 0) {
+            displaybox.value = "0";
         }
         else {
-	displaybox.value += dec;
+	    displaybox.value += dec;
         }
 }
 
