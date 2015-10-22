@@ -1,5 +1,5 @@
 body{
-	background: url(../img/try.png) no-repeat center;
+	 background: url(../img/try.png) no-repeat center;
 	-webkit-background-size: cover;
 }
 
@@ -15,13 +15,13 @@ body{
 	margin: 20px;
 	height: 50px;
 	width: 360px;
-    border-radius: 5px;
-    font-size: 20px;
-    text-align: right;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: right;
 }
 
 #buttons input {
-	margin: 15px 0px 5px 20px;
+        margin: 15px 0px 5px 20px;
 	height: 50px;
 	width: 53px;
 	font-size: 16px;
@@ -42,6 +42,6 @@ body{
 	display: table;
 }
 
-#buttons input:hover{
-  border-color: green;
+       #buttons input:hover{
+       border-color: green;
 }
