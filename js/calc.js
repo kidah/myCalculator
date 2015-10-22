@@ -6,11 +6,11 @@ function showVal(num) {
         var txt = document.getElementById("displaybox").value;
         txt = txt + num;
         if(displaybox.value.length > 30){
-  	var error = "Maximum length of characters reached!!!";
-  	displaybox.value = error;
+  	    var error = "Maximum length of characters reached!!!";
+  	    displaybox.value = error;
         }
         else{
-        document.getElementById("displaybox").value = txt;
+            document.getElementById("displaybox").value = txt;
         }
 }
 
@@ -28,19 +28,19 @@ function calculate() {
 function toggle() {
 	txt = document.getElementById("displaybox").value;
 	if(txt == +txt){
-        displaybox.value = -txt;
+            displaybox.value = -txt;
 	}
 	else if(txt == -txt) {
-        displaybox.value = +txt;
+            displaybox.value = +txt;
 	}
 }
 
 function point() {  
         if(displaybox.value.length == 0) {
-        displaybox.value = "0";
+            displaybox.value = "0";
         }
         else {
-	displaybox.value += dec;
+	    displaybox.value += dec;
         }
 }
 
