@@ -1,47 +1,41 @@
 <html>
-<head>
-    <title>Non-scientific Calculator</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/calc.js"></script>
-</head>
-<body>
-  <div id="title">Web Calculator </div>
-    
-    <div id='calculator'>
-        
-        <div id='table'>
+    <head>
+        <title>Non-scientific Calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/calc.js"></script>
+    </head>
+    <body>
+        <div id="title">Web Calculator </div>
+            <div id='calculator'>
+                <div id='table'>
+                    <input type='text'  id='displaybox' value=''></input>
+                        <div id="buttons">
+                            <input  type='button'  value = '1'    onclick="showVal(this.value)">  </input>
+                            <input  type='button'  value = '2'    onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value = '3'    onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value=  '/'    onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value = 'C'    onclick= "clearNum()">          </input>
             
-    	    <input type='text'  id='displaybox' value=''></input>
-            <div id="buttons">
-            <input  type='button'  value = '1'    onclick="showVal(this.value)">  </input>
-            <input  type='button'  value = '2'    onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value = '3'    onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value=  '/'    onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value = 'C'    onclick= "clearNum()">          </input>
+                            <input  type='button'  value='4'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='5'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='6'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='*'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='&Sqrt;' onclick="squareroot()">         </input>
             
-            <input  type='button'  value='4'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='5'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='6'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='*'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='&Sqrt;' onclick="squareroot()">         </input>
-            
-            <input  type='button'  value='7'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='8'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='9'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='-'      onclick ="showVal(this.value)"> </input>
-            <input  type='button'  value='&sup2;' onclick ="square()">            </input>
+                            <input  type='button'  value='7'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='8'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='9'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='-'      onclick ="showVal(this.value)"> </input>
+                            <input  type='button'  value='&sup2;' onclick ="square()">            </input>
               
-            <input type='button'   value='0'      onclick ="showVal(this.value)"> </input>
-            <input type='button'   value='.'      onclick ="point()">             </input>
-            <input type='button'   value='&PlusMinus;' onclick ="toggle()">       </input>    
-            <input type='button'   value= '+'     onclick ="showVal(this.value)"> </input>
-            <input type='button'   value = '='    onclick= "calculate()">         </input>
-            
+                            <input type='button'   value='0'      onclick ="showVal(this.value)"> </input>
+                            <input type='button'   value='.'      onclick ="point()">             </input>
+                            <input type='button'   value='&PlusMinus;' onclick ="toggle()">       </input>    
+                            <input type='button'   value= '+'     onclick ="showVal(this.value)"> </input>
+                            <input type='button'   value = '='    onclick= "calculate()">         </input>
+                        </div>
+                </div>
+            </div>
         </div>
-        
-    </div>
-    
- </div>
-
-</body>
+    </body>
 </html>
