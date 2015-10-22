@@ -1,9 +1,9 @@
-body{
+body {
 	 background: url(../img/try.png) no-repeat center;
 	-webkit-background-size: cover;
 }
 
-#calculator{
+#calculator {
 	height: 400px;
 	width: 400px;
 	background: #cccccc;
@@ -11,7 +11,7 @@ body{
 	margin: 100px 0px 0px 450px;	
 }
 
-#displaybox{
+#displaybox {
 	margin: 20px;
 	height: 50px;
 	width: 360px;
@@ -29,7 +29,7 @@ body{
 	display: table-cell;	
 }
 
-#title{
+#title {
 	font-size: 44px;
 	font-family: Sans-serif;
 	color: #ffffff;
@@ -38,10 +38,10 @@ body{
 	margin-left: 500px;
 }
 
-#table{
+#table {
 	display: table;
 }
 
-#buttons input:hover{
+#buttons input:hover {
         border-color: green;
 }
